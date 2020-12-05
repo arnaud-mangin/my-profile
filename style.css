@@ -1,0 +1,71 @@
+
+body{
+	text-align: center;
+	background-color: rgb(220,220,240);
+	font-family: 'Nerko One', cursive;
+}
+
+h1 {
+	color: rgb(255, 141, 0);
+	background-color: rgba(85, 200, 218, 0.5);
+	
+    font-size: 70px;
+    font-weight: 40;
+    font-family: helvetica;
+
+}
+
+h2 {
+	background-color: rgb(200, 200, 200);
+	color: orange;
+}
+
+a{
+	color:green;
+	text-decoration: green;
+	font-weight: bold;
+
+}
+a:hover {
+	color: lightgreen;
+}
+
+.img {
+	border-radius: 10%;
+}
+
+
+
+
+	@media (max-width: 960px) {
+  
+  .container {
+    width: 710px;
+  }
+  	
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 530px;
+  }
+  
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 500px;
+  }
+  
+}
+
+.btn-green {
+	background-color: #0a7f0a82;
+	color: darkgreen;
+	padding: 10px;
+	border-radius: 15%
+}
+
+.list-inline {
+	list-style: none;
+}
